@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tapHere.setOnClickListener {
-            textView.text = "ボタンがタップされました"
+            textView.text = "ボタンをタップしました"
         }
     }
 }
